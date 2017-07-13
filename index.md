@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-TODO: Wrap Sections with links
 ![Bio Pic](/self.jpg)
 
 > _I love tech innovations, especially in the consumer services and electronics space.
@@ -18,6 +17,7 @@ TODO: Wrap Sections with links
 # [](#portfolio) Portfolio
 _Below is a Portfolio of my work that I have done._
 
+
 ## [](#ai) Artificial Intellegence Engineering Projects
 **Artificial intelligence is the future of computer science and technology. Its 
 impact will be almost immeasurable. The field is wide open today, with so much 
@@ -25,6 +25,7 @@ to learn, and so many ways to contribute. Global innovations in the field of
 artificial intelligence (AI) are going to redefine virtually every aspect of our
 lives. By mastering AI skills I will play a critical role in helping determine 
 how this incredible technology impacts our future.**
+
 
 ### Facial Keypoint Detection
 ![](https://raw.githubusercontent.com/JonathanKSullivan/Facial-Keypoint-Detection/master/images/obamas_with_keypoints.png)
@@ -36,6 +37,8 @@ used in many applications, from facial tracking to emotion recognition. My code
 is able to take in any image containing faces and identify the location of each 
 face and their facial keypoints.
 
+#### [View on Github](https://github.com/JonathanKSullivan/Facial-Keypoint-Detection) 
+
 #### Technologies Used
 - Python 3.6
 - Jupyter Notebook
@@ -46,6 +49,7 @@ face and their facial keypoints.
 - Amazon EC2
 
 
+
 ### Mimic Me!
 ![](arpan-shocked.png)
 
@@ -54,6 +58,8 @@ expressions using Affectiva. As a fun visualization, I taged each face with an
 appropriate emoji next to it. I then turned this into a game where the player 
 needs to mimic a random emoji displayed by the computer!
 
+
+#### [View on Github](https://github.com/JonathanKSullivan/MimicMe) 
 
 #### Technologies Used
 - JavaScript
@@ -69,6 +75,8 @@ real market data in order to predict future Apple stock prices using an RNN
 model. The second one is trained on Sir Arthur Conan Doyle's classic novel 
 Sherlock Holmes and will generate wacky sentences based on it that may - or may 
 not - become the next great Sherlock Holmes novel!
+
+#### [View on Github](https://github.com/JonathanKSullivan/text_generation) 
 
 #### Technologies Used
 - Jupyter Notebook
@@ -96,6 +104,8 @@ involves solving many problems without a perfect answer. My imperfect solution
 will nonetheless create a fun user experience!
 
 
+#### [View on Github](https://github.com/JonathanKSullivan/dog_breed_classifier) 
+
 #### Technologies Used
 - Jupyter Notebook
 - Python 3.6
@@ -116,6 +126,8 @@ question-answering system. I first used the Discovery service to pre-process a
 document collection and extract relevant information. I used the Conversation 
 service to build a natural language interface that can respond to questions.
 
+#### [View on Github](https://github.com/JonathanKSullivan/BookWorm) 
+
 #### Technologies Used
 - Python 3.6
 - Jupyter Notebook
@@ -129,6 +141,8 @@ In this project, I built a fully functional skill for Amazon’s Alexa that
 provides year-dated facts from AI History (or some other History of my 
 choosing). Through the process, I got to use the Alexa Skills Kit (ASK) - a 
 current state of the art API for building voice systems.
+
+#### [View on Github](https://github.com/JonathanKSullivan/Alexa-History-Skill) 
 
 #### Technologies Used
 - JavaScript
@@ -149,6 +163,8 @@ that capture the conditional probability of particular sequences of words
 occurring. This should help me you improve the recognition accuracy of my 
 system.
 
+#### [View on Github](https://github.com/JonathanKSullivan/Sign-Language-Recognizer) 
+
 #### Technologies Used
 - Jupyter Notebook
 - Python 3.6
@@ -156,8 +172,6 @@ system.
 - Pandas
 - hmmlearn
 - matplotlib
-
-
 
 ### Pacman Search Agent
 ![](pacman.gif)
@@ -167,6 +181,8 @@ reach a particular location and to collect food efficiently. I built general
 search algorithms, such as breadth first search, depth first search, Uniform 
 Cost Search, Astar Search and applied them to Pacman scenarios, such as finding 
 corners and eating all of the food.
+
+#### [View on Github](https://github.com/JonathanKSullivan/Pacman-With-AI) 
 
 #### Technologies Used
 - Python 2.7
@@ -183,6 +199,8 @@ Explored Constraint Satisfaction Problems by implementing the N-Queens problem
 using symbolic constraints in a Jupyter notebook, and solving it using the 
 Backtracking Search algorithm from AIMA.
 
+#### [View on Github](https://github.com/JonathanKSullivan/8-Queens-with-AI) 
+
 #### Technologies Used
 - Python 3.6
 - aima-python
@@ -197,6 +215,8 @@ heuristics, including planning graph heuristics, to solve the problems, and then
 provided an analysis of the results. Additionally, I wrote a short research 
 review paper on the historical development of planning techniques and their use 
 in artificial intelligence.
+
+#### [View on Github](https://github.com/JonathanKSullivan/Air-Cargo-Planning-Problem) 
 
 #### Technologies Used
 - Python 3.6
@@ -236,6 +256,8 @@ The second part of this project I read a seminal paper(Game Tree Searching by
 Min / Max Approximation by Ron Rivest, MIT) in the field of Game-Playing and 
 wrote a simple one page summary on it.
 
+#### [View on Github](https://github.com/JonathanKSullivan/Isolation-With-AI) 
+
 #### Technologies Used
 - Python 3.6
 - Minimax Search
@@ -251,6 +273,8 @@ modifies existing code to solve a diagonal sudoku. My goals were to implement
 the naked twins function and write an AI agent that solves the Diagonal Sudoku 
 game.
 
+#### [View on Github](https://github.com/JonathanKSullivan/Sudoku-With-AI) 
+
 #### Technologies Used
 - Python 3.6
 - Algorithms for solving SAT
@@ -262,6 +286,8 @@ game.
 In this exercise I demonstrate understanding of simulated annealing by 
 implementing the algorithm in a Jupyter notebook and using it to solve the 
 Traveling Salesman Problem (TSP) between US state capitals.
+
+#### [View on Github](https://github.com/JonathanKSullivan/Traveling-Saleman-with-AI) 
 
 #### Technologies Used
 - Jupyter Notebook
@@ -285,6 +311,8 @@ Used supervised learning to study 5 high-valued equities in the technology
 sector and make price predictions. This is the capstone project for the 
 Udacity's Machine Learning Nanodegree.
 
+#### [View on Github](https://github.com/JonathanKSullivan/Stock-Price-Predictor) 
+
 #### Technologies Used
 - Python 2.7
 - NumPy
@@ -299,6 +327,8 @@ Udacity's Machine Learning Nanodegree.
 Used reinforcement learning techniques to construct a demonstration of a 
 smartcab operating in real-time.
 
+#### [View on Github](https://github.com/JonathanKSullivan/SmartCab) 
+
 #### Technologies Used
 - Python 2.7
 - PyGame
@@ -308,6 +338,8 @@ smartcab operating in real-time.
 
 Use unsupervised learning techniques to see if any similarities exist between 
 customers, and how to best segment customers into distinct categories.
+
+#### [View on Github](https://github.com/JonathanKSullivan/CustomerSegments) 
 
 #### Technologies Used
 - Python 2.7
@@ -321,6 +353,8 @@ customers, and how to best segment customers into distinct categories.
 ![](boston.jpg)
 
 Built an optimal model based on a statistical analysis to estimate the best selling price for a client’s home. Used the Boston Housing dataset which contains aggregated data on various features for houses in Greater Boston communities.
+
+#### [View on Github](https://github.com/JonathanKSullivan/BostonHousing) 
 
 #### Technologies Used
 - Python 2.7
@@ -337,6 +371,8 @@ Constructed an intervention system that leverages supervised learning
 techniques. Developed a model that will predict the likelihood that a given 
 student will pass, quantifying whether an intervention is necessary.
 
+#### [View on Github](https://github.com/JonathanKSullivan/StudentIntervention) 
+
 #### Technologies Used
 - Python 2.7
 - NumPy
@@ -349,6 +385,8 @@ student will pass, quantifying whether an intervention is necessary.
 
 Created decision functions that attempt to predict survival outcomes from the 
 1912 Titanic disaster based on each passenger’s features, such as sex and age.
+
+#### [View on Github](https://github.com/JonathanKSullivan/TitanicSurvival) 
 
 #### Technologies Used
 - Python 2.7
@@ -371,6 +409,8 @@ structures and external APIs to make use of third-party data**
 Developed an app that allows you to drop pins on a map and pull up Flickr images
 associated with that location. Stored locations and images using Core Data. 
 
+#### [View on Github](https://github.com/JonathanKSullivan/Virtual-Tourist) 
+
 #### Technologies Used
 - XCode
 - Swift
@@ -381,6 +421,8 @@ associated with that location. Stored locations and images using Core Data.
 
 Developed an iOS app that adds my current location to a map of locations for other Nanodegree students it also posts a link to my own portfolio for others to see. 
 This is the third project in the Udacity iOS Nanodegree Program.
+
+#### [View on Github](https://github.com/JonathanKSullivan/On-The-Map) 
 
 #### Technologies Used
 - XCode
@@ -393,6 +435,8 @@ This is the third project in the Udacity iOS Nanodegree Program.
 Developed an iOS app that takes a photo, and overlay text to meme-ify your 
 friends. Then share on your favorite social channels! 
 
+#### [View on Github](https://github.com/JonathanKSullivan/MemeMe) 
+
 #### Technologies Used
 - XCode
 - Swift
@@ -402,6 +446,8 @@ friends. Then share on your favorite social channels!
 ![](PitchPerfect.png)
 
 Developed an iOS app that records a message and plays the audio back through user-selected filters. 
+
+#### [View on Github](https://github.com/JonathanKSullivan/Pitch-Perfect) 
 
 #### Technologies Used
 - XCode
@@ -430,6 +476,8 @@ JavaScript and SQL. My portfolio clearly demonstrate key skills mastery.
 Adapted remake of the classic frogger game given assets and game loop engine 
 from Udacity. 
 
+#### [View on Github](https://github.com/JonathanKSullivan/Classic-Arcade-Game-Clone) 
+
 #### Technologies Used
 - HTML
 - JavaScript
@@ -439,6 +487,8 @@ from Udacity.
 
 Developed a series of jasmine.js test suites for a web-based application that 
 reads RSS feeds. 
+
+#### [View on Github](https://github.com/JonathanKSullivan/Feed-Reader-Testing) 
 
 #### Technologies Used
 - HTML5
@@ -452,6 +502,8 @@ reads RSS feeds.
 Developed an interactive resume application that reads my resume content from a 
 JSON file and dynamically displays that content within a provided template.
 
+#### [View on Github](https://github.com/JonathanKSullivan/Interactive-Resume) 
+
 #### Technologies Used
 - HTML5
 - CSS3 
@@ -462,6 +514,8 @@ JSON file and dynamically displays that content within a provided template.
 ![](trailer.png)
 
 A simple movie trailer website that uses Python, JavaScript, and CSS. 
+
+#### [View on Github](https://github.com/JonathanKSullivan/Movie-Trailer-Website) 
 
 #### Technologies Used
 - Python
@@ -476,6 +530,8 @@ including: map markers to identify popular locations or places you’d like to
 visit, a search function to easily discover these locations, and a listview to 
 support simple browsing of all locations. 
 
+#### [View on Github](https://github.com/JonathanKSullivan/Neighborhood-Map) 
+
 #### Technologies Used
 - HTML5
 - CSS3
@@ -488,6 +544,8 @@ support simple browsing of all locations.
 Series of responsive portfolio sites designed from a given mockup from Udacity. 
 This is the first project in the Udacity Frontend Nanodegree Program
 
+#### [View on Github](https://github.com/JonathanKSullivan/Portfolio-Site) 
+
 #### Technologies Used
 - HTML5
 - Bootstrap
@@ -498,6 +556,8 @@ This is the first project in the Udacity Frontend Nanodegree Program
 
 Displayed information about faux tournament results using Python from a Postgres
 database. 
+
+#### [View on Github](https://github.com/JonathanKSullivan/Tournament-Results) 
 
 #### Technologies Used
 - Python
@@ -519,6 +579,8 @@ findings.
 Analyzed the Stroop effect, a classic result of experimental psychology using 
 descriptive statistics and statistical test.
 
+#### [View on Github](https://github.com/JonathanKSullivan/Stroop-Effect) 
+
 #### Technologies Used
 - Python 2.7
 - NumPy
@@ -530,6 +592,8 @@ descriptive statistics and statistical test.
 
 Analysis of the results of an experiment testing the optimal length of 
 chopsticks. 
+
+#### [View on Github](https://github.com/JonathanKSullivan/Chopsticks) 
 
 #### Technologies Used
 - Python 2.7
@@ -544,6 +608,8 @@ Worked with real data provided by Bay Area Bike Share to determine differences
 in usage between commuters and tourists ridership patterns, average duration of 
 trips, and more!
 
+
+#### [View on Github](https://github.com/JonathanKSullivan/Bay-Area-Bike-Share) 
 
 #### Technologies Used
 - Python 2.7
@@ -564,6 +630,45 @@ wave of technology that change the world for the better.
 
 ## [](#education) Education
 
+### Udacity
+![](udacity.png)
+
+My recent educational experience has been with a company, that I love. Udacity 
+provide free class in programming and software engineering and paid Nanodegrees 
+that focus on various fields. As a millenial new college grad living with his 
+supportive parents. I started to spend 8-10 hours on this site daily. I was so 
+amazed at the amount of material in so many fields of software engineering. This
+was also my first time using python, Java my language of choice at the time. I 
+used these resources to learn how to build iphone apps, and website apps. I also
+learned skill in data science like Data Wrangling, Exploratory Data Analysis, 
+Data Visualization, Machine Learning, Deep Learning, and Artificial Intellegence.
+
+### University of North Texas (UNT)
+![](unt.png)
+
+After leaving DCCCD were I had taken all possible math, Natural Science and 
+computer engineering availible, I entered the university of North Texas. Here I 
+majored in math and was pursuing a minor in Computer Engineering, Physics, 
+Biology and Chemistry. Funny Story, my parent's who paid my tutition, told me a 
+semster before I took my last group of Physics, Biology and Chemistry, that If I
+had the credit to graduate and didnt they didnt know how I was going to pay for 
+it. So I ended up graduating with a major in math and a minor in computer 
+science. 
+
+### Dallas County Community College (DCCCD)
+![](dcccd.jpg)
+
+The next step into futhering my technical experience took place almost 5 years
+later. At this time I also was a single father of a beutiful 4 years old little 
+girl and a unborn son. While being a parent came with it on set of challenges, I
+had a support network which allowed me to enroll in Dallas County Community
+College District (DCCCD). I started to fall inlove with math. Not just because 
+of the enthusiastic proffesor at DCCCD but also because of a man named Sal Khan 
+and his organization Khan academy. This site allowed me to grab a firm understanding 
+of advanded mathematics like Linear Algebra, Vector Calculus, and Differential 
+Equations I started majoring in Computer Engineering but part way through I was 
+convinced by my Differential Eqautions teacher to become a Math major. 
+
 ### School of Science and Engineering at Yvonne A. Ewell Magnet Center (SEM)
 ![](sem.php)
 
@@ -583,48 +688,13 @@ both the 'AP Biology' and 'AP Computer Science A'. I also had taken a
 College Physics and General Chemistry course, allowing me to enter college at 16
 with sophmore credits. 
 
-### Dallas County Community College (DCCCD)
-![](dcccd.jpg)
-
-The next step into futhering my technical experience took place almost 5 years
-later. At this time I also was a single father of a beutiful 4 years old little 
-girl and a unborn son. While being a parent came with it on set of challenges, I
-had a support network which allowed me to enroll in Dallas County Community
-College District (DCCCD). I started to fall inlove with math. Not just because 
-of the enthusiastic proffesor at DCCCD but also because of a man named Sal Khan 
-and his organization Khan academy. This site allowed me to grab a firm understanding 
-of advanded mathematics like Linear Algebra, Vector Calculus, and Differential 
-Equations I started majoring in Computer Engineering but part way through I was 
-convinced by my Differential Eqautions teacher to become a Math major. 
-
-### University of North Texas (UNT)
-![](unt.png)
-
-After leaving DCCCD were I had taken all possible math, Natural Science and 
-computer engineering availible, I entered the university of North Texas. Here I 
-majored in math and was pursuing a minor in Computer Engineering, Physics, 
-Biology and Chemistry. Funny Story, my parent's who paid my tutition, told me a 
-semster before I took my last group of Physics, Biology and Chemistry, that If I
-had the credit to graduate and didnt they didnt know how I was going to pay for 
-it. So I ended up graduating with a major in math and a minor in computer 
-science. 
-
-### Udacity
-![](udacity.png)
-
-My recent educational experience has been with a company, that I love. Udacity 
-provide free class in programming and software engineering and paid Nanodegrees 
-that focus on various fields. As a millenial new college grad living with his 
-supportive parents. I started to spend 8-10 hours on this site daily. I was so 
-amazed at the amount of material in so many fields of software engineering. This
-was also my first time using python, Java my language of choice at the time. I 
-used these resources to learn how to build iphone apps, and website apps. I also
-learned skill in data science like Data Wrangling, Exploratory Data Analysis, 
-Data Visualization, Machine Learning, Deep Learning, and Artificial Intellegence.
-
-
 ## [](#experience) Experience
-TODO: WRITE SECTION
+### Sites I have worked on:
+- [TWC Buisiness Class Website](https://business.timewarnercable.com/) 
+- [Qualitaxas](www.qualitaxas.com/) (active- Work In Progress)
+- [Event Map for Progrexas.com](http://map.freestuffdfw.com/) (inactive)
+- [Gary Stuard For US Congress Campaign](www.stuard2016.com/) (inactive)
+- [Resume](www.jonathanksullivan.com/) (outdated)
 
 ## [](#skills) Skills
 Here are a list of my skills:

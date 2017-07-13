@@ -1,0 +1,399 @@
+
+<!-- saved from url=(0028)http://map.freestuffdfw.com/ -->
+<html class="gr__map_freestuffdfw_com"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body bgcolor="#f0f0f8" data-gr-c-s-loaded="true">
+<table width="100%" cellspacing="0" cellpadding="2" border="0" summary="heading">
+<tbody><tr bgcolor="#6622aa">
+<td valign="bottom">&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>&lt;class 'sqlalchemy.exc.ProgrammingError'&gt;</strong></big></big></font></td><td align="right" valign="bottom"><font color="#ffffff" face="helvetica, arial">Python 2.7.10: /home8/freestu9/public_html/progrexas_map/env/bin/python<br>Thu Jul 13 11:38:12 2017</font></td></tr></tbody></table>
+    
+<p>A problem occurred in a Python script.  Here is the sequence of
+function calls leading up to the error, in the order they occurred.</p>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flup/server/fcgi_base.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flup/server/fcgi_base.py</a> in <strong>run</strong>(self=&lt;flup.server.fcgi_base.Request object&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;556</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"""Runs&nbsp;the&nbsp;handler,&nbsp;flushes&nbsp;the&nbsp;streams,&nbsp;and&nbsp;ends&nbsp;the&nbsp;request."""<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;557</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try:<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;558</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;protocolStatus,&nbsp;appStatus&nbsp;=&nbsp;self.server.handler(self)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;559</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;except:<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;560</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;traceback.print_exc(file=self.stderr)<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090">protocolStatus <em>undefined</em>, appStatus <em>undefined</em>, <strong>self</strong>&nbsp;= &lt;flup.server.fcgi_base.Request object&gt;, self.<strong>server</strong>&nbsp;= &lt;flup.server.fcgi.WSGIServer object&gt;, self.server.<strong>handler</strong>&nbsp;= &lt;bound method WSGIServer.handler of &lt;flup.server.fcgi.WSGIServer object&gt;&gt;</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flup/server/fcgi_base.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flup/server/fcgi_base.py</a> in <strong>handler</strong>(self=&lt;flup.server.fcgi.WSGIServer object&gt;, req=&lt;flup.server.fcgi_base.Request object&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1116</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try:<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1117</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try:<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1118</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;self.application(environ,&nbsp;start_response)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1119</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try:<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1120</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;data&nbsp;in&nbsp;result:<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>result</strong>&nbsp;= None, <strong>self</strong>&nbsp;= &lt;flup.server.fcgi.WSGIServer object&gt;, self.<strong>application</strong>&nbsp;= &lt;Flask 'app_controller'&gt;, <strong>environ</strong>&nbsp;= {'DOCUMENT_ROOT': '/home8/freestu9/public_html/progrexas_map', 'GATEWAY_INTERFACE': 'CGI/1.1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_CONNECTION': 'close', 'HTTP_COOKIE': '_ga=GA1.2.329486066.1499967433; _gid=GA1.2.285760401.1499967433', 'HTTP_HOST': 'map.freestuffdfw.com', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', ...}, <strong>start_response</strong>&nbsp;= &lt;function start_response&gt;</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py</a> in <strong>__call__</strong>(self=&lt;Flask 'app_controller'&gt;, environ={'DOCUMENT_ROOT': '/home8/freestu9/public_html/progrexas_map', 'GATEWAY_INTERFACE': 'CGI/1.1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_CONNECTION': 'close', 'HTTP_COOKIE': '_ga=GA1.2.329486066.1499967433; _gid=GA1.2.285760401.1499967433', 'HTTP_HOST': 'map.freestuffdfw.com', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', ...}, start_response=&lt;function start_response&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1992</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;__call__(self,&nbsp;environ,&nbsp;start_response):<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1993</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"""Shortcut&nbsp;for&nbsp;:attr:`wsgi_app`."""<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1994</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;self.wsgi_app(environ,&nbsp;start_response)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1995</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1996</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;__repr__(self):<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>self</strong>&nbsp;= &lt;Flask 'app_controller'&gt;, self.<strong>wsgi_app</strong>&nbsp;= &lt;bound method Flask.wsgi_app of &lt;Flask 'app_controller'&gt;&gt;, <strong>environ</strong>&nbsp;= {'DOCUMENT_ROOT': '/home8/freestu9/public_html/progrexas_map', 'GATEWAY_INTERFACE': 'CGI/1.1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_CONNECTION': 'close', 'HTTP_COOKIE': '_ga=GA1.2.329486066.1499967433; _gid=GA1.2.285760401.1499967433', 'HTTP_HOST': 'map.freestuffdfw.com', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', ...}, <strong>start_response</strong>&nbsp;= &lt;function start_response&gt;</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py</a> in <strong>wsgi_app</strong>(self=&lt;Flask 'app_controller'&gt;, environ={'DOCUMENT_ROOT': '/home8/freestu9/public_html/progrexas_map', 'GATEWAY_INTERFACE': 'CGI/1.1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_CONNECTION': 'close', 'HTTP_COOKIE': '_ga=GA1.2.329486066.1499967433; _gid=GA1.2.285760401.1499967433', 'HTTP_HOST': 'map.freestuffdfw.com', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', ...}, start_response=&lt;function start_response&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1983</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;except&nbsp;Exception&nbsp;as&nbsp;e:<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1984</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error&nbsp;=&nbsp;e<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1985</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;response&nbsp;=&nbsp;self.handle_exception(e)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1986</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;response(environ,&nbsp;start_response)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1987</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;finally:<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090">response <em>undefined</em>, <strong>self</strong>&nbsp;= &lt;Flask 'app_controller'&gt;, self.<strong>handle_exception</strong>&nbsp;= &lt;bound method Flask.handle_exception of &lt;Flask 'app_controller'&gt;&gt;, <strong>e</strong>&nbsp;= ProgrammingError('(sqlite3.ProgrammingError) SQL...80595712 and this is thread id 140353272203008',)</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py</a> in <strong>handle_exception</strong>(self=&lt;Flask 'app_controller'&gt;, e=ProgrammingError('(sqlite3.ProgrammingError) SQL...80595712 and this is thread id 140353272203008',))</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1538</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;otherwise,&nbsp;we&nbsp;just&nbsp;raise&nbsp;the&nbsp;error&nbsp;again<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1539</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;exc_value&nbsp;is&nbsp;e:<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1540</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reraise(exc_type,&nbsp;exc_value,&nbsp;tb)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1541</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1542</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raise&nbsp;e<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><em>global</em> <strong>reraise</strong>&nbsp;= &lt;function reraise&gt;, <strong>exc_type</strong>&nbsp;= &lt;class 'sqlalchemy.exc.ProgrammingError'&gt;, <strong>exc_value</strong>&nbsp;= ProgrammingError('(sqlite3.ProgrammingError) SQL...80595712 and this is thread id 140353272203008',), <strong>tb</strong>&nbsp;= &lt;traceback object&gt;</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py</a> in <strong>wsgi_app</strong>(self=&lt;Flask 'app_controller'&gt;, environ={'DOCUMENT_ROOT': '/home8/freestu9/public_html/progrexas_map', 'GATEWAY_INTERFACE': 'CGI/1.1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_CONNECTION': 'close', 'HTTP_COOKIE': '_ga=GA1.2.329486066.1499967433; _gid=GA1.2.285760401.1499967433', 'HTTP_HOST': 'map.freestuffdfw.com', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', ...}, start_response=&lt;function start_response&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1980</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try:<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1981</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try:<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1982</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;response&nbsp;=&nbsp;self.full_dispatch_request()<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1983</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;except&nbsp;Exception&nbsp;as&nbsp;e:<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1984</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;error&nbsp;=&nbsp;e<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090">response <em>undefined</em>, <strong>self</strong>&nbsp;= &lt;Flask 'app_controller'&gt;, self.<strong>full_dispatch_request</strong>&nbsp;= &lt;bound method Flask.full_dispatch_request of &lt;Flask 'app_controller'&gt;&gt;</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py</a> in <strong>full_dispatch_request</strong>(self=&lt;Flask 'app_controller'&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1612</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rv&nbsp;=&nbsp;self.dispatch_request()<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1613</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;except&nbsp;Exception&nbsp;as&nbsp;e:<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1614</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rv&nbsp;=&nbsp;self.handle_user_exception(e)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1615</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;self.finalize_request(rv)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1616</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>rv</strong>&nbsp;= None, <strong>self</strong>&nbsp;= &lt;Flask 'app_controller'&gt;, self.<strong>handle_user_exception</strong>&nbsp;= &lt;bound method Flask.handle_user_exception of &lt;Flask 'app_controller'&gt;&gt;, <strong>e</strong>&nbsp;= ProgrammingError('(sqlite3.ProgrammingError) SQL...80595712 and this is thread id 140353272203008',)</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py</a> in <strong>handle_user_exception</strong>(self=&lt;Flask 'app_controller'&gt;, e=ProgrammingError('(sqlite3.ProgrammingError) SQL...80595712 and this is thread id 140353272203008',))</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1515</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1516</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;handler&nbsp;is&nbsp;None:<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1517</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reraise(exc_type,&nbsp;exc_value,&nbsp;tb)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1518</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;handler(e)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1519</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><em>global</em> <strong>reraise</strong>&nbsp;= &lt;function reraise&gt;, <strong>exc_type</strong>&nbsp;= &lt;class 'sqlalchemy.exc.ProgrammingError'&gt;, <strong>exc_value</strong>&nbsp;= ProgrammingError('(sqlite3.ProgrammingError) SQL...80595712 and this is thread id 140353272203008',), <strong>tb</strong>&nbsp;= &lt;traceback object&gt;</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py</a> in <strong>full_dispatch_request</strong>(self=&lt;Flask 'app_controller'&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1610</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rv&nbsp;=&nbsp;self.preprocess_request()<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1611</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;rv&nbsp;is&nbsp;None:<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1612</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rv&nbsp;=&nbsp;self.dispatch_request()<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1613</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;except&nbsp;Exception&nbsp;as&nbsp;e:<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1614</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rv&nbsp;=&nbsp;self.handle_user_exception(e)<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>rv</strong>&nbsp;= None, <strong>self</strong>&nbsp;= &lt;Flask 'app_controller'&gt;, self.<strong>dispatch_request</strong>&nbsp;= &lt;bound method Flask.dispatch_request of &lt;Flask 'app_controller'&gt;&gt;</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py</a> in <strong>dispatch_request</strong>(self=&lt;Flask 'app_controller'&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1596</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;self.make_default_options_response()<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1597</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;otherwise&nbsp;dispatch&nbsp;to&nbsp;the&nbsp;handler&nbsp;for&nbsp;that&nbsp;endpoint<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1598</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;self.view_functions[rule.endpoint](**req.view_args)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1599</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1600</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;full_dispatch_request(self):<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>self</strong>&nbsp;= &lt;Flask 'app_controller'&gt;, self.<strong>view_functions</strong>&nbsp;= {'admin': &lt;function admin&gt;, 'createEvent': &lt;function createEvent&gt;, 'deleteEvent': &lt;function deleteEvent&gt;, 'home': &lt;function home&gt;, 'json_events': &lt;function json_events&gt;, 'login': &lt;function login&gt;, 'readEvent': &lt;function readEvent&gt;, 'serve_js': &lt;function serve_js&gt;, 'static': &lt;bound method Flask.send_static_file of &lt;Flask 'app_controller'&gt;&gt;, 'updateEvent': &lt;function updateEvent&gt;}, <strong>rule</strong>&nbsp;= &lt;Rule '/' (HEAD, OPTIONS, GET) -&gt; home&gt;, rule.<strong>endpoint</strong>&nbsp;= 'home', <strong>req</strong>&nbsp;= &lt;Request 'http://map.freestuffdfw.com/app_controller.fcgi/' [GET]&gt;, req.<strong>view_args</strong>&nbsp;= {}</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/app_controller.py">/home8/freestu9/public_html/progrexas_map/app_controller.py</a> in <strong>home</strong>()</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;64</small>&nbsp;@app.route("/")<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;65</small>&nbsp;def&nbsp;home():<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;&nbsp;66</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;events&nbsp;=&nbsp;session.query(Event).all()<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;67</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resp&nbsp;=&nbsp;make_response(render_template('index.html',&nbsp;events&nbsp;=&nbsp;events))<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;68</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;resp<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090">events <em>undefined</em>, <em>global</em> <strong>session</strong>&nbsp;= &lt;sqlalchemy.orm.session.Session object&gt;, session.<strong>query</strong>&nbsp;= &lt;bound method Session.query of &lt;sqlalchemy.orm.session.Session object&gt;&gt;, <em>global</em> <strong>Event</strong>&nbsp;= &lt;class 'model.Event'&gt;, ).all <em>undefined</em></font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/orm/query.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/orm/query.py</a> in <strong>all</strong>(self=&lt;sqlalchemy.orm.query.Query object&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2586</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2587</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"""<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;2588</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;list(self)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2589</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2590</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@_generative(_no_clauseelement_condition)<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><em>builtin</em> <strong>list</strong>&nbsp;= &lt;type 'list'&gt;, <strong>self</strong>&nbsp;= &lt;sqlalchemy.orm.query.Query object&gt;</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/orm/query.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/orm/query.py</a> in <strong>__iter__</strong>(self=&lt;sqlalchemy.orm.query.Query object&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2734</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;self._autoflush&nbsp;and&nbsp;not&nbsp;self._populate_existing:<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2735</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.session._autoflush()<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;2736</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;self._execute_and_instances(context)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2737</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2738</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;_connection_from_session(self,&nbsp;**kw):<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>self</strong>&nbsp;= &lt;sqlalchemy.orm.query.Query object&gt;, self.<strong>_execute_and_instances</strong>&nbsp;= &lt;bound method Query._execute_and_instances of &lt;sqlalchemy.orm.query.Query object&gt;&gt;, <strong>context</strong>&nbsp;= &lt;sqlalchemy.orm.query.QueryContext object&gt;</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/orm/query.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/orm/query.py</a> in <strong>_execute_and_instances</strong>(self=&lt;sqlalchemy.orm.query.Query object&gt;, querycontext=&lt;sqlalchemy.orm.query.QueryContext object&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2749</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;close_with_result=True)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2750</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;2751</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result&nbsp;=&nbsp;conn.execute(querycontext.statement,&nbsp;self._params)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2752</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;loading.instances(querycontext.query,&nbsp;result,&nbsp;querycontext)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;2753</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090">result <em>undefined</em>, <strong>conn</strong>&nbsp;= &lt;sqlalchemy.engine.base.Connection object&gt;, conn.<strong>execute</strong>&nbsp;= &lt;bound method Connection.execute of &lt;sqlalchemy.engine.base.Connection object&gt;&gt;, <strong>querycontext</strong>&nbsp;= &lt;sqlalchemy.orm.query.QueryContext object&gt;, querycontext.<strong>statement</strong>&nbsp;= &lt;sqlalchemy.sql.selectable.Select at 0x7fa688de9c90; Select object&gt;, <strong>self</strong>&nbsp;= &lt;sqlalchemy.orm.query.Query object&gt;, self.<strong>_params</strong>&nbsp;= immutabledict({})</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py</a> in <strong>execute</strong>(self=&lt;sqlalchemy.engine.base.Connection object&gt;, object=&lt;sqlalchemy.sql.selectable.Select at 0x7fa688de9c90; Select object&gt;, *multiparams=(immutabledict({}),), **params={})</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;912</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type(object))<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;913</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;914</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;meth(self,&nbsp;multiparams,&nbsp;params)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;915</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;916</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;_execute_function(self,&nbsp;func,&nbsp;multiparams,&nbsp;params):<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>meth</strong>&nbsp;= &lt;bound method Select._execute_on_connection of &lt;...ectable.Select at 0x7fa688de9c90; Select object&gt;&gt;, <strong>self</strong>&nbsp;= &lt;sqlalchemy.engine.base.Connection object&gt;, <strong>multiparams</strong>&nbsp;= (immutabledict({}),), <strong>params</strong>&nbsp;= {}</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/sql/elements.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/sql/elements.py</a> in <strong>_execute_on_connection</strong>(self=&lt;sqlalchemy.sql.selectable.Select at 0x7fa688de9c90; Select object&gt;, connection=&lt;sqlalchemy.engine.base.Connection object&gt;, multiparams=(immutabledict({}),), params={})</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;321</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;322</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;_execute_on_connection(self,&nbsp;connection,&nbsp;multiparams,&nbsp;params):<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;323</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;connection._execute_clauseelement(self,&nbsp;multiparams,&nbsp;params)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;324</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;325</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;unique_params(self,&nbsp;*optionaldict,&nbsp;**kwargs):<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>connection</strong>&nbsp;= &lt;sqlalchemy.engine.base.Connection object&gt;, connection.<strong>_execute_clauseelement</strong>&nbsp;= &lt;bound method Connection._execute_clauseelement of &lt;sqlalchemy.engine.base.Connection object&gt;&gt;, <strong>self</strong>&nbsp;= &lt;sqlalchemy.sql.selectable.Select at 0x7fa688de9c90; Select object&gt;, <strong>multiparams</strong>&nbsp;= (immutabledict({}),), <strong>params</strong>&nbsp;= {}</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py</a> in <strong>_execute_clauseelement</strong>(self=&lt;sqlalchemy.engine.base.Connection object&gt;, elem=&lt;sqlalchemy.sql.selectable.Select at 0x7fa688de9c90; Select object&gt;, multiparams=(immutabledict({}),), params={})</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1008</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compiled_sql,<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1009</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;distilled_params,<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1010</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compiled_sql,&nbsp;distilled_params<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1011</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1012</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;self._has_events&nbsp;or&nbsp;self.engine._has_events:<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>compiled_sql</strong>&nbsp;= &lt;sqlalchemy.dialects.sqlite.base.SQLiteCompiler object&gt;, <strong>distilled_params</strong>&nbsp;= [immutabledict({})]</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py</a> in <strong>_execute_context</strong>(self=&lt;sqlalchemy.engine.base.Connection object&gt;, dialect=&lt;sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object&gt;, constructor=&lt;bound method type._init_compiled of &lt;class 'sql...my.dialects.sqlite.base.SQLiteExecutionContext'&gt;&gt;, statement=&lt;sqlalchemy.dialects.sqlite.base.SQLiteCompiler object&gt;, parameters=[immutabledict({})], *args=(&lt;sqlalchemy.dialects.sqlite.base.SQLiteCompiler object&gt;, [immutabledict({})]))</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1076</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e,<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1077</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;util.text_type(statement),&nbsp;parameters,<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1078</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;None,&nbsp;None)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1079</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1080</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;context.compiled:<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><em>builtin</em> <strong>None</strong>&nbsp;= None</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py</a> in <strong>_handle_dbapi_exception</strong>(self=&lt;sqlalchemy.engine.base.Connection object&gt;, e=ProgrammingError('SQLite objects created in a th...80595712 and this is thread id 140353272203008',), statement=u'SELECT events.id AS events_id, events.event_type...reation_date AS events_creation_date <font color="#c040c0">\n</font>FROM events', parameters=[immutabledict({})], cursor=None, context=None)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1339</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;util.raise_from_cause(<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1340</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sqlalchemy_exception,<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1341</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exc_info<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1342</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1343</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>exc_info</strong>&nbsp;= (&lt;class 'sqlite3.ProgrammingError'&gt;, ProgrammingError('SQLite objects created in a th...80595712 and this is thread id 140353272203008',), &lt;traceback object&gt;)</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/util/compat.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/util/compat.py</a> in <strong>raise_from_cause</strong>(exception=ProgrammingError('(sqlite3.ProgrammingError) SQL...80595712 and this is thread id 140353272203008',), exc_info=(&lt;class 'sqlite3.ProgrammingError'&gt;, ProgrammingError('SQLite objects created in a th...80595712 and this is thread id 140353272203008',), &lt;traceback object&gt;))</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;198</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exc_type,&nbsp;exc_value,&nbsp;exc_tb&nbsp;=&nbsp;exc_info<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;199</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cause&nbsp;=&nbsp;exc_value&nbsp;if&nbsp;exc_value&nbsp;is&nbsp;not&nbsp;exception&nbsp;else&nbsp;None<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;200</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reraise(type(exception),&nbsp;exception,&nbsp;tb=exc_tb,&nbsp;cause=cause)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;201</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;202</small>&nbsp;if&nbsp;py3k:<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><em>global</em> <strong>reraise</strong>&nbsp;= &lt;function reraise&gt;, <em>builtin</em> <strong>type</strong>&nbsp;= &lt;type 'type'&gt;, <strong>exception</strong>&nbsp;= ProgrammingError('(sqlite3.ProgrammingError) SQL...80595712 and this is thread id 140353272203008',), tb <em>undefined</em>, <strong>exc_tb</strong>&nbsp;= &lt;traceback object&gt;, <strong>cause</strong>&nbsp;= ProgrammingError('SQLite objects created in a th...80595712 and this is thread id 140353272203008',)</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py</a> in <strong>_execute_context</strong>(self=&lt;sqlalchemy.engine.base.Connection object&gt;, dialect=&lt;sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object&gt;, constructor=&lt;bound method type._init_compiled of &lt;class 'sql...my.dialects.sqlite.base.SQLiteExecutionContext'&gt;&gt;, statement=&lt;sqlalchemy.dialects.sqlite.base.SQLiteCompiler object&gt;, parameters=[immutabledict({})], *args=(&lt;sqlalchemy.dialects.sqlite.base.SQLiteCompiler object&gt;, [immutabledict({})]))</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1071</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;conn&nbsp;=&nbsp;self._revalidate_connection()<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1072</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;1073</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;context&nbsp;=&nbsp;constructor(dialect,&nbsp;self,&nbsp;conn,&nbsp;*args)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1074</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;except&nbsp;Exception&nbsp;as&nbsp;e:<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;1075</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self._handle_dbapi_exception(<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090">context <em>undefined</em>, <strong>constructor</strong>&nbsp;= &lt;bound method type._init_compiled of &lt;class 'sql...my.dialects.sqlite.base.SQLiteExecutionContext'&gt;&gt;, <strong>dialect</strong>&nbsp;= &lt;sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object&gt;, <strong>self</strong>&nbsp;= &lt;sqlalchemy.engine.base.Connection object&gt;, <strong>conn</strong>&nbsp;= &lt;sqlalchemy.pool._ConnectionFairy object&gt;, <strong>args</strong>&nbsp;= (&lt;sqlalchemy.dialects.sqlite.base.SQLiteCompiler object&gt;, [immutabledict({})])</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/default.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/default.py</a> in <strong>_init_compiled</strong>(cls=&lt;class 'sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext'&gt;, dialect=&lt;sqlalchemy.dialects.sqlite.pysqlite.SQLiteDialect_pysqlite object&gt;, connection=&lt;sqlalchemy.engine.base.Connection object&gt;, dbapi_connection=&lt;sqlalchemy.pool._ConnectionFairy object&gt;, compiled=&lt;sqlalchemy.dialects.sqlite.base.SQLiteCompiler object&gt;, parameters=[immutabledict({})])</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;556</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.executemany&nbsp;=&nbsp;len(parameters)&nbsp;&gt;&nbsp;1<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;557</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;558</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;self.cursor&nbsp;=&nbsp;self.create_cursor()<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;559</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;560</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;self.isinsert&nbsp;or&nbsp;self.isupdate&nbsp;or&nbsp;self.isdelete:<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>self</strong>&nbsp;= &lt;sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object&gt;, self.cursor <em>undefined</em>, self.<strong>create_cursor</strong>&nbsp;= &lt;bound method SQLiteExecutionContext.create_curs...lects.sqlite.base.SQLiteExecutionContext object&gt;&gt;</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/default.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/default.py</a> in <strong>create_cursor</strong>(self=&lt;sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object&gt;)</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;746</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;747</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;create_cursor(self):<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;748</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;self._dbapi_connection.cursor()<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;749</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;750</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;pre_exec(self):<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>self</strong>&nbsp;= &lt;sqlalchemy.dialects.sqlite.base.SQLiteExecutionContext object&gt;, self.<strong>_dbapi_connection</strong>&nbsp;= &lt;sqlalchemy.pool._ConnectionFairy object&gt;, self._dbapi_connection.<strong>cursor</strong>&nbsp;= &lt;bound method _ConnectionFairy.cursor of &lt;sqlalchemy.pool._ConnectionFairy object&gt;&gt;</font></small></td></tr></tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/pool.py">/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/pool.py</a> in <strong>cursor</strong>(self=&lt;sqlalchemy.pool._ConnectionFairy object&gt;, *args=(), **kwargs={})</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;850</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;851</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"""<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;852</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;self.connection.cursor(*args,&nbsp;**kwargs)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;853</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;854</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def&nbsp;__getattr__(self,&nbsp;key):<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>self</strong>&nbsp;= &lt;sqlalchemy.pool._ConnectionFairy object&gt;, self.<strong>connection</strong>&nbsp;= &lt;sqlite3.Connection object&gt;, self.connection.<strong>cursor</strong>&nbsp;= &lt;built-in method cursor of sqlite3.Connection object&gt;, <strong>args</strong>&nbsp;= (), <strong>kwargs</strong>&nbsp;= {}</font></small></td></tr></tbody></table><p><strong>&lt;class 'sqlalchemy.exc.ProgrammingError'&gt;</strong>: (sqlite3.ProgrammingError) SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 140353280595712 and this is thread id 140353272203008 [SQL: u'SELECT events.id AS events_id, events.event_type AS events_event_type, events.title AS events_title, events.description AS events_description, events.signup_email AS events_signup_email, events.reminder_email AS events_reminder_email, events.reminder_time AS events_reminder_time, events.country AS events_country, events.address1 AS events_address1, events.address2 AS events_address2, events.city AS events_city, events.state AS events_state, events."zipCode" AS "events_zipCode", events.venue AS events_venue, events.capacity AS events_capacity, events.directions AS events_directions, events.length AS events_length, events.length_unit AS events_length_unit, events.phone AS events_phone, events.public_phone AS events_public_phone, events.host AS events_host, events.email AS events_email, events.event_time AS events_event_time, events.lat AS events_lat, events.lng AS events_lng, events.creation_date AS events_creation_date \nFROM events'] [parameters: [immutabledict({})]]
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>add_detail&nbsp;=
+&lt;bound method ProgrammingError.add_detail of Pro...0595712 and this is thread id 140353272203008',)&gt;
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>args&nbsp;=
+('(sqlite3.ProgrammingError) SQLite objects create...53280595712 and this is thread id 140353272203008',)
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>connection_invalidated&nbsp;=
+False
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>detail&nbsp;=
+[]
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>instance&nbsp;=
+&lt;bound method type.instance of &lt;class 'sqlalchemy.exc.ProgrammingError'&gt;&gt;
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>message&nbsp;=
+'(sqlite3.ProgrammingError) SQLite objects create...53280595712 and this is thread id 140353272203008'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>orig&nbsp;=
+ProgrammingError('SQLite objects created in a th...80595712 and this is thread id 140353272203008',)
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>params&nbsp;=
+[immutabledict({})]
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>statement&nbsp;=
+u'SELECT events.id AS events_id, events.event_type...reation_date AS events_creation_date <font color="#c040c0">\n</font>FROM events'
+
+
+<!-- The above is a description of an error in a Python program, formatted
+     for a Web browser because the 'cgitb' module was enabled.  In case you
+     are not reading this in a Web browser, here is the original traceback:
+
+Traceback (most recent call last):
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flup/server/fcgi_base.py", line 558, in run
+    protocolStatus, appStatus = self.server.handler(self)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flup/server/fcgi_base.py", line 1118, in handler
+    result = self.application(environ, start_response)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py", line 1994, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home8/freestu9/public_html/progrexas_map/app_controller.py", line 66, in home
+    events = session.query(Event).all()
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2588, in all
+    return list(self)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+    return self._execute_and_instances(context)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2751, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1078, in _execute_context
+    None, None)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1073, in _execute_context
+    context = constructor(dialect, self, conn, *args)
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 558, in _init_compiled
+    self.cursor = self.create_cursor()
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 748, in create_cursor
+    return self._dbapi_connection.cursor()
+  File "/home8/freestu9/public_html/progrexas_map/env/lib/python2.7/site-packages/sqlalchemy/pool.py", line 852, in cursor
+    return self.connection.cursor(*args, **kwargs)
+ProgrammingError: (sqlite3.ProgrammingError) SQLite objects created in a thread can only be used in that same thread.The object was created in thread id 140353280595712 and this is thread id 140353272203008 [SQL: u'SELECT events.id AS events_id, events.event_type AS events_event_type, events.title AS events_title, events.description AS events_description, events.signup_email AS events_signup_email, events.reminder_email AS events_reminder_email, events.reminder_time AS events_reminder_time, events.country AS events_country, events.address1 AS events_address1, events.address2 AS events_address2, events.city AS events_city, events.state AS events_state, events."zipCode" AS "events_zipCode", events.venue AS events_venue, events.capacity AS events_capacity, events.directions AS events_directions, events.length AS events_length, events.length_unit AS events_length_unit, events.phone AS events_phone, events.public_phone AS events_public_phone, events.host AS events_host, events.email AS events_email, events.event_time AS events_event_time, events.lat AS events_lat, events.lng AS events_lng, events.creation_date AS events_creation_date \nFROM events'] [parameters: [immutabledict({})]]
+
+-->
+</p></body></html>
