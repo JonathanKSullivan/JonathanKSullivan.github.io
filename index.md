@@ -206,7 +206,7 @@ Backtracking Search algorithm from AIMA.
 - aima-python
 
 ### Air Cargo transport system using a planning search
-![](progression.png)
+![](Progression.png)
 
 In this project, I defined a group of problems in classical PDDL 
 (Planning Domain Definition Language) for the air cargo domain. I then set up 
@@ -417,7 +417,7 @@ associated with that location. Stored locations and images using Core Data.
 - UIkit
 
 ### On the Map
-![](onTheMap.png)
+![](OnTheMap.png)
 
 Developed an iOS app that adds my current location to a map of locations for other Nanodegree students it also posts a link to my own portfolio for others to see. 
 This is the third project in the Udacity iOS Nanodegree Program.
@@ -638,7 +638,7 @@ provide free class in programming and software engineering and paid Nanodegrees
 that focus on various fields. As a millenial new college grad living with his 
 supportive parents. I started to spend 8-10 hours on this site daily. I was so 
 amazed at the amount of material in so many fields of software engineering. This
-was also my first time using python, Java my language of choice at the time. I 
+was also my first time using python, Java was my language of choice at the time. I 
 used these resources to learn how to build iphone apps, and website apps. I also
 learned skill in data science like Data Wrangling, Exploratory Data Analysis, 
 Data Visualization, Machine Learning, Deep Learning, and Artificial Intellegence.
@@ -650,8 +650,8 @@ After leaving DCCCD were I had taken all possible math, Natural Science and
 computer engineering availible, I entered the university of North Texas. Here I 
 majored in math and was pursuing a minor in Computer Engineering, Physics, 
 Biology and Chemistry. Funny Story, my parent's who paid my tutition, told me a 
-semster before I took my last group of Physics, Biology and Chemistry, that If I
-had the credit to graduate and didnt they didnt know how I was going to pay for 
+semster before I took my last semester of Physics, Biology and Chemistryc ourses, that If I
+had the credit to graduate and didnt they I would have to pay for 
 it. So I ended up graduating with a major in math and a minor in computer 
 science. 
 
