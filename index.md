@@ -23,7 +23,7 @@ _Below is a Portfolio of my work that I have done._
 
 
 ### Search and Sample Return Project
-![](https://github.com/JonathanKSullivan/Search-and-Sample-Return/blob/master/misc/rover_image.jpg)
+![](https://github.com/JonathanKSullivan/Search-and-Sample-Return/raw/master/misc/rover_image.jpg)
 
 This project is modeled after the NASA sample return challenge. In a simulated environment, I programed a space rover to search for environmental samples using some basic computer vision techniques. With just a few lines of Python code I got a chance to experience the three main steps in the robotics process: perception, decision making, and actuation. I carried out this project in a simulator environment built with the Unity game engine.
 
@@ -42,7 +42,7 @@ ways, and Deep Learning is powering the progress.**
 ==============
 
 ### Face Generation
-![](https://github.com/JonathanKSullivan/Generate-Faces/blob/master/images/main.jpg)
+![](https://github.com/JonathanKSullivan/Generate-Faces/raw/master/images/main.jpg)
 
 In this project, I used deep convolutional generative adversarial networks to generate new images of faces and numbers.
 
@@ -56,7 +56,7 @@ In this project, I used deep convolutional generative adversarial networks to ge
 - OpenCV
 
 ### Translation Project
-![](https://github.com/JonathanKSullivan/Translation-Project/blob/master/images/main.jpg)
+![](https://github.com/JonathanKSullivan/Translation-Project/raw/master/images/main.jpg)
 
 In this project, I took a peek into the realm of neural network machine translation. I trained a sequence to sequence model on a dataset of English and French sentences that can translate new sentences from English to French.
 
@@ -81,7 +81,7 @@ In this project, I generated my own Simpsons TV scripts using RNNs. I usied part
 - Tensorflow
 
 ### Image Classification
-![](https://github.com/JonathanKSullivan/Image-Classification/blob/master/images/main.jpg)
+![](https://github.com/JonathanKSullivan/Image-Classification/raw/master/images/main.jpg)
 
 In this project, I classified images from the CIFAR-10 dataset. The dataset consists of airplanes, dogs, cats, and other objects. The dataset was to be preprocessed, then trained on a convolutional neural network. I normalized the images, one-hot encoded the labels, build a convolutional layer, max pool layer, and fully connected layer. At the end, you can see its predictions on the sample images.
 
