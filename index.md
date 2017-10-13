@@ -39,8 +39,6 @@ This project is modeled after the NASA sample return challenge. In a simulated e
 **Artificial Intelligence is transforming our world in dramatic and beneficial 
 ways, and Deep Learning is powering the progress.**
 
-==============
-
 ### Face Generation
 ![](https://github.com/JonathanKSullivan/Generate-Faces/raw/master/images/main.jpg)
 
@@ -103,8 +101,6 @@ In this project, I got to build a neural network from scratch to carry out a pre
 - Python 3.6
 - Jupyter Notebook
 - Numpy
-
-===============
 
 ## [](#ai) Artificial Intellegence Engineering Projects
 **Artificial intelligence is the future of computer science and technology. Its 
