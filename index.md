@@ -18,6 +18,94 @@ layout: default
 _Below is a Portfolio of my work that I have done._
 
 
+## [](#ai) Robotics Engineering Projects
+**Robots are enhancing productivity, safety, and efficiency across whole industries—from manufacturing and healthcare to agriculture, construction, and transportation. In the process, we are being freed to pursue more creative, ambitious, and intellectual achievements. Incredible new opportunities are emerging, but they require specialized skills.**
+
+
+### Search and Sample Return Project
+![](https://github.com/JonathanKSullivan/Search-and-Sample-Return/blob/master/misc/rover_image.jpg)
+
+This project is modeled after the NASA sample return challenge. In a simulated environment, I programed a space rover to search for environmental samples using some basic computer vision techniques. With just a few lines of Python code I got a chance to experience the three main steps in the robotics process: perception, decision making, and actuation. I carried out this project in a simulator environment built with the Unity game engine.
+
+#### [View on Github](https://github.com/JonathanKSullivan/Search-and-Sample-Return) 
+
+#### Technologies Used
+- Python 3.6
+- Numpy
+- Jupyter Notebook
+- OpenCV
+
+## [](#ai) Deep Learning Engineering Projects
+**Artificial Intelligence is transforming our world in dramatic and beneficial 
+ways, and Deep Learning is powering the progress.**
+
+==============
+
+### Face Generation
+![](https://github.com/JonathanKSullivan/Generate-Faces/blob/master/images/main.jpg)
+
+In this project, I used deep convolutional generative adversarial networks to generate new images of faces and numbers.
+
+#### [View on Github](https://github.com/JonathanKSullivan/Generate-Faces) 
+
+#### Technologies Used
+- Python 3.6
+- Jupyter Notebook
+- Numpy
+- Tensorflow
+- OpenCV
+
+### Translation Project
+![](https://github.com/JonathanKSullivan/Translation-Project/blob/master/images/main.jpg)
+
+In this project, I took a peek into the realm of neural network machine translation. I trained a sequence to sequence model on a dataset of English and French sentences that can translate new sentences from English to French.
+
+
+#### [View on Github](https://github.com/JonathanKSullivan/Translation-Project) 
+
+#### Technologies Used
+- Python 3.6
+- Jupyter Notebook
+- Tensorflow
+
+###  TV Script Generation
+![](https://github.com/JonathanKSullivan/Generate-TV-Scripts/raw/master/images/main.jpg)
+
+In this project, I generated my own Simpsons TV scripts using RNNs. I usied part of the Simpsons dataset of scripts from 27 seasons. The Neural Network I build will generate a new TV script for a scene at Moe's Tavern.
+
+#### [View on Github](https://github.com/JonathanKSullivan/Generate-TV-Scripts) 
+
+#### Technologies Used
+- Python 3.6
+- Jupyter Notebook
+- Tensorflow
+
+### Image Classification
+![](https://github.com/JonathanKSullivan/Image-Classification/blob/master/images/main.jpg)
+
+In this project, I classified images from the CIFAR-10 dataset. The dataset consists of airplanes, dogs, cats, and other objects. The dataset was to be preprocessed, then trained on a convolutional neural network. I normalized the images, one-hot encoded the labels, build a convolutional layer, max pool layer, and fully connected layer. At the end, you can see its predictions on the sample images.
+
+#### [View on Github](https://github.com/JonathanKSullivan/Image-Classification) 
+
+#### Technologies Used
+- Python 3.6
+- Jupyter Notebook
+- Tensorflow
+
+### First Neural Network
+![](https://github.com/JonathanKSullivan/First-Neural-Network/raw/master/images/main.jpg)
+
+In this project, I got to build a neural network from scratch to carry out a prediction problem on a real dataset! By building a neural network from the ground up, I have a much better understanding of gradient descent, backpropagation, and other concepts that are important to know before mastering higher level toolssuch as Tensorflow. I also got to see how to apply these networks to solve real prediction problems!
+
+#### [View on Github](https://github.com/JonathanKSullivan/First-Neural-Network) 
+
+#### Technologies Used
+- Python 3.6
+- Jupyter Notebook
+- Numpy
+
+===============
+
 ## [](#ai) Artificial Intellegence Engineering Projects
 **Artificial intelligence is the future of computer science and technology. Its 
 impact will be almost immeasurable. The field is wide open today, with so much 
